@@ -13,7 +13,7 @@ Algoritmo ContadorDeVocales
     // recorro letra por letra
     Para i <- 1 Hasta longitudFrase Con Paso 1 Hacer
         letra <- Subcadena(frase, i, i)
-        // si es una vocal le sumo al contador ^^
+        // si es una vocal le sumo al contador 
         Si letra="a" O letra="e" O letra="i" O letra="o" O letra="u" Entonces
             contador <- contador + 1
         FinSi
