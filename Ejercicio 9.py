@@ -14,4 +14,3 @@ def crear_red_comunicacion():
     for origen, destinos in red.items():
         print(f"[{origen}] ---> Se comunica directamente con: [{destinos[0]}] y [{destinos[1]}]")
 crear_red_comunicacion() 
-#te amo emilia ♥
