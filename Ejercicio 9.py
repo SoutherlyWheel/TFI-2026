@@ -3,8 +3,8 @@ def crear_red_comunicacion():
     total_nodos = 8
 
     for i in range(1, total_nodos + 1):
-        # hago que cada nodo se conecte a los dos q le siguen
-        # y si llega al final vuelve al 1 asi cierra el circulo ^^
+        # haces que cada nodo se conecte a los otros que siguen
+        # y cuando llega al final vuelve al 1 asi cierra el circulo 
         destino_1 = i + 1 if i + 1 <= total_nodos else 1
         destino_2 = i + 2 if i + 2 <= total_nodos else (2 if i + 1 == total_nodos else 1)
         
