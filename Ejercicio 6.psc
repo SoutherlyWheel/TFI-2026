@@ -1,19 +1,19 @@
 Algoritmo PiramideEntera
     Definir altura, fila, columna, espacio Como Entero
     
-    Escribir "Ingrese la altura deseada para la pir·mide:"
+    Escribir "Ingrese la altura deseada para la pir√°mide:"
     Leer altura
     
     // recorro cada escalon de la piramide
     Para fila <- 1 Hasta altura Hacer
         
-        // primero imprimo espacios vacios para empujar los numeros al centro xd
-        // la logica es q cada vez q bajo un escalon, necesito un espacio menos
+        // primero se imprimen espacios vacios para empujar los numeros al centro
+        // la logica es que cada vez que baja un un nivel se necesita un espacio menos
         Para espacio <- 1 Hasta (altura - fila) Hacer
             Escribir Sin Saltar " "
         FinPara
         
-        // ahora si imprimo los numeros de ese escalon como antes ^^
+        // ahora si imprimo los numeros de ese escalon como antes
         Para columna <- 1 Hasta fila Hacer
             Escribir Sin Saltar columna, " "
         FinPara
