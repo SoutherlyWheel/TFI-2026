@@ -5,21 +5,21 @@ Algoritmo CalcularPromedio
     suma <- 0
     contador <- 0
     
-    Escribir "Ingrese hasta 10 números para el promedio (ingrese un negativo para detenerse):"
+    Escribir "Ingrese hasta 10 nÃºmeros para el promedio (ingrese un negativo para detenerse):"
     
     Repetir
         Leer valor
-        // solo sumo si es positivo pq sino me rompe el promedio al final aa
+        // solo sumar si es positivo porque sino se rompe el promedio al final
         Si valor >= 0 Entonces
             suma <- suma + valor
             contador <- contador + 1
         FinSi
-		// corta si ponen negativo o si ya son 10
+		// termina si ponen negativo o si ya son 10
     Hasta Que valor < 0 O contador = 10
     
     Si contador > 0 Entonces
         Escribir "El promedio de los valores ingresados es: ", (suma / contador)
     Sino
-        Escribir "No se ingresaron valores positivos para promediar :c"
+        Escribir "No se ingresaron valores positivos para promediar "
     FinSi
 FinAlgoritmo
