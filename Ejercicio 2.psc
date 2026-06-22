@@ -13,5 +13,5 @@ Algoritmo InvertirCadena
         fraseInvertida <- fraseInvertida + Subcadena(frase, i, i)
     FinPara
     
-    Escribir "La frase en latin invocador de demonios es: ", fraseInvertida
+    Escribir "La frase en inverso es: ", fraseInvertida
 FinAlgoritmo
