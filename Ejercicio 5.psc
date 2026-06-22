@@ -1,6 +1,6 @@
 Algoritmo TablaMultiplicar
     Definir n, i Como Entero
-    Escribir  "ingresar numerito pa multiplica"
+    Escribir  "ingresar un numero para multiplicar"
     Leer n
     
     Escribir "--- Tabla del ", n, " (hasta x20) ---"
