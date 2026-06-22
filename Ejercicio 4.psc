@@ -1,13 +1,13 @@
 Algoritmo AreaTriangulo
     Definir base, altura, area Como Real
     
-    Escribir "Ingrese la base del triángulo:"
+    Escribir "Ingrese la base del triÃ¡ngulo:"
     Leer base
-    Escribir "Ingrese la altura del triángulo:"
+    Escribir "Ingrese la altura del triÃ¡ngulo:"
     Leer altura
     
-    // formula normal del triangulo ^^ atte: tu amigo pitagoras
+    // la formula del triangulo
     area <- (base * altura) / 2
     
-    Escribir "El área del triángulo es: ", area
+    Escribir "El Ã¡rea del triÃ¡ngulo es: ", area
 FinAlgoritmo
