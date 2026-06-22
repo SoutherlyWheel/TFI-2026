@@ -1,7 +1,7 @@
 Algoritmo SumaDeMatrices
     Definir i, j Como Entero
     Definir matrizA, matrizB, matrizResultado Como Real
-    // hago una 2x2 profe no me pegue
+    // hago un 2x2
     Dimension matrizA[2,2], matrizB[2,2], matrizResultado[2,2]
     
     Escribir "Carga de la Matriz A (2x2):"
